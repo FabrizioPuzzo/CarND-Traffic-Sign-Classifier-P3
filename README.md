@@ -61,13 +61,16 @@ The images of the traffic signs and the images of the MNIST dataset (handwritten
 
 The modified network architecture is the following:
 
+
 **Input: Grayscale image** Input shape: 32x32x1 
+
 
 **Layer 1: Convolutional.** Output shape: 28x28x6.
 
 **Activation:** ReLU (Rectified Linear Units)
 
 **Pooling:** Input shape: 28x28x6. Output shape: 14x14x6.
+
 
 **Layer 2: Convolutional.** Input shape: 14x14x6. Output shape: 10x10x16.
 
@@ -77,17 +80,20 @@ The modified network architecture is the following:
 
 **Flatten:** Flatten the output shape of the final pooling layer such that it's 1D instead of 3D by using `tf.contrib.layers.flatten`. Input shape: 5x5x16. Number of outputs: 400
 
+
 **Layer 3: Fully Connected.** Number of inputs: 400. Number of outputs: 120. 
 
 **Activation:** ReLU (Rectified Linear Units)
 
 **Dropout:** Dropout with 50% dropout probability during training
 
+
 **Layer 4: Fully Connected.** Number of inputs: 120. Number of outputs: 84. 
 
 **Activation:** ReLU (Rectified Linear Units)
 
 **Dropout:** Dropout with 50% dropout probability during training
+
 
 **Layer 5: Fully Connected (Logits).** Number of inputs: 84. Number of outputs: 43. 
  
