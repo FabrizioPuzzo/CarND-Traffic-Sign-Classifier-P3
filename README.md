@@ -1,8 +1,9 @@
-# ** CarND Traffic Sign Recognition** 
+# CarND Traffic Sign Recognition
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
 ---
 
-This repo contains my solution to the Advanced Lane Finding Project for Udacity's Self-Driving Car Engineer Nanodegree Program.
+This repo contains my solution to the Traffic Sign Recognition Project for Udacity's Self-Driving Car Engineer Nanodegree Program.
 
 ---
 
