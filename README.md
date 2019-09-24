@@ -9,7 +9,7 @@ This repo contains my solution to the Traffic Sign Recognition Project for Udaci
 
 **Build a Traffic Sign Recognition Project using Deep Learning**
 
-The goals / steps of this project are the following:
+In this project, the goal is to use deep neural networks and convolutional neural networks to classify traffic signs. The steps undertaken to complete this project are the following:
 * Load the data set (see below for links to the project data set)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
